@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+hr {
+  border: 1px solid black;
+}
+/*@media (min-width: 1440px) {
+    body, .header, .hero, .services, .portfolio, .imageGallery {
+      max-width: 100%;
+      padding: auto;
+      margin: auto;
+    }
+  }
+  @media (min-width: 1200px) {
+    bdoy, .header, .hero, .services, .portfolio, .imageGallery {
+      max-width: 1140px;
+      padding: auto;
+      margin: auto;
+    }
+  }
+  @media (min-width: 992px) {
+    body, .header, .hero, .services, .portfolio, .imageGallery {
+      max-width: 960px;
+      padding: auto;
+      margin: auto;
+    }
+  }
+  @media (min-width: 768px) {
+    body, .header, .hero, .services, .portfolio, .imageGallery {
+     max-width: 720px;
+     padding: auto;
+     margin: auto;
+   }
+ }
+@media (min-width: 576px) {
+    body, .header, .hero, .services, .portfolio, .imageGallery {
+      max-width: 540px;
+      padding: auto;
+      margin: auto;
+    }
+  }*/

@@ -1,0 +1,34 @@
+.header, .header-right{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+}
+.header{
+    background-color: #34353A;
+    border: 1px solid black;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-content: center;
+    padding:0.5rem 1rem;
+}
+.header-right{
+    grid-template-columns: repeat(9, max-content);
+    align-self: center;
+    column-gap:2rem;
+}
+.logo img:hover{
+    cursor: pointer;
+}
+.header-right button {
+    -webkit-text-fill-color: white;
+    align-self:center;
+    border: none;
+    background-color: #34353A;
+}
+.header-right button:hover {
+    cursor: pointer;
+}
+.header-right img:hover {
+    cursor: pointer;
+}
+ 

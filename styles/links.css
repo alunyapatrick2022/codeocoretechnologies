@@ -1,0 +1,20 @@
+.link > div:first-of-type {
+          text-align: center;
+}
+.link > div:first-of-type button:hover {
+          cursor: pointer;
+}
+button.codecoretech-link {
+          font-size: small;
+}
+.link {
+          background-color: #2E2F34;
+}
+.link > div:first-of-type button {
+          width: 240px;
+          height: 30px;
+          font-size: 1rem;
+          border: none;
+          background-color: #2E2F34;
+          -webkit-text-fill-color: white;
+}
