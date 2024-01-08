@@ -1,0 +1,74 @@
+.hero,.hero-right, .hero > div:first-of-type{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+}
+.hero {
+    border: 1px solid black;
+    background-color: #2E2F34;
+    -webkit-text-fill-color: white;
+}
+.hero , .hero-left{
+    grid-template-columns: max-content auto max-content;
+    min-height:80vh;
+    padding: 4rem;
+}
+.hero > div:first-of-type{
+    grid-template-rows: auto auto auto;
+    align-content: center;
+    row-gap:4rem;
+}
+.hero > div:first-of-type h1 h2{
+    font-size:1.5rem;
+}
+ 
+.social-media-links > div:first-of-type{
+    width: 100px;
+    height:3px;
+    background-color: #6C7016;
+    margin-bottom:3rem;
+}
+.sm-buttons button {
+    -webkit-text-fill-color: white;
+    border: none;
+    background-color: #2E2F34;
+}
+.contact-us {
+    padding:1rem;
+    background-color: blue;
+    border:2px solid gold;
+    width: max-content;
+    color: white;
+}
+.contact-us a {
+    padding:1rem;
+    background-color: blue;
+    border:2px solid gold;
+    width: max-content;
+    color: white;
+}
+.hero > div:first-of-type button:hover{
+    cursor: pointer;
+}
+.hero > div:nth-of-type(2) img {
+    display: grid;
+    margin: auto;
+}
+.hero-right {
+    align-content: center;
+    row-gap:3rem;
+}
+.hero-right button{
+    padding:1rem;
+    background-color: blue;
+    border:2px solid gold;
+    width: max-content;
+    color: white;
+}
+.hero-right  button:hover{
+    cursor: pointer;
+}
+.title {
+    align-self: center;
+    grid-row: 1/  span 1; 
+}
