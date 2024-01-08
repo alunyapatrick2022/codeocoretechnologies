@@ -1,92 +1,80 @@
-          .contact,  .contact-box,.contact > div:first-of-type{
-             display: grid;
-             display: -ms-grid;
-             display: -moz-grid;                       
-          }
-          .contact{
-             border: 1px solid green;
-             background-color: #2E2F34;
-          }
-          .contact  > div:first-of-type{
-             text-align: center;
-             padding: 3rem;
-             -webkit-text-fill-color: white;
-          }
-          .contact-box {
-             grid-template-columns:  repeat(3,max-content);
-             justify-content: space-between;
-             column-gap: 1rem;
-             max-width: max-content;
-             margin: auto;
-             max-width: max-content;
-             row-gap: 1rem;
+         .contact,  .contact-box,.contact > div:first-of-type{
+            display: grid;
+            display: -ms-grid;
+            display: -moz-grid;                       
+         }
+         .contact{
+            border: 1px solid green;
+            background-color: #2E2F34;
+         }
+         .contact  > div:first-of-type{
+            text-align: center;
+            padding: 3rem;
+            -webkit-text-fill-color: white;
+         }
+         .contact-box {
+            grid-template-columns:  repeat(3,max-content);
+            justify-content: space-between;
+            column-gap: 1rem;
+            margin: auto;
+            max-width: max-content;
+            row-gap: 1rem;
 
-          }
-          .contact-box{
-             grid-template-columns:auto auto auto;
-             display: grid;
-          }
-          .contact > div:first-of-type h3,h4:hover{
-             font-size: 1rem;
-             align-self: center;
-             cursor: pointer;
-          }
-          .contact > div:first-of-type p {
-             font-size: 1rem;
-             align-self: center;
-          }
-          .gmail, .linkedin, .facebook, .github, .twitter, .phone  {
-                    background-color: #36363F;
-          }
-          .gmail, .linkedin, .facebook, .github, .twitter, .phone:hover{
-             cursor: pointer;
-          }
-          .gmail, .linkedin, .facebook, .github, .twitter, .phone{
-             width: 220px;
-             height: 50px;
-             text-align: center;
-             grid-template-columns: auto auto;
-             display: grid;
-             column-gap: 0.1rem;
-             grid-template-rows: auto;
-             row-gap: 0rem;
-             font-size: 0.5;
-             justify-self: center;
-          }
-          .contact-box > div:first-of-type {
-             border: 1px solid blue;
-             text-align: center;
-             width: 220px;
-             height: 50px;
-          }
-          .contact-box > div:nth-of-type(2){
-             border: 1px solid blue;
-             text-align: center;
-             width: 220px;
-             height: 50px;
-             justify-content: center;
-          }
-          .contact-box > div:nth-of-type(3){
-             border: 1px solid blue;
-             text-align: center;
-             width: 220px;
-             height: 50px;
-          }
-          .contact-box > div:nth-of-type(4){
-             border: 1px solid blue;
-             text-align: center;
-             width: 220px;
-             height: 50px;
-          } 
-          .contact-box > div:nth-of-type(5){
-             border: 1px solid blue;
-             text-align: center;
-             width: 220px;
-             height: 50px;
-          } 
-          .contact-box > div:nth-of-type(6){
-             border: 1px solid blue;
-             text-align: center;
-             width: 220px;
-             height: 50px;
-          }
+         }
+         .contact-box{
+            grid-template-columns:auto auto auto;
+            display: grid;
+         }
+         .contact a {
+            text-decoration: none;
+         }
+         .contact-box a{
+            text-decoration: none;
+            color: rgb(110, 74, 7);
+            align-self: center;
+         }
+         .contact > div:first-of-type h3,h4:hover{
+            font-size: 1rem;
+            align-self: center;
+            cursor: pointer;
+         }
+         .contact > div:first-of-type p {
+            align-self: center;
+         }
+         .contact-box > div:first-of-type a {
+            border: 1px solid blue;
+            text-align: center;
+            width: 220px;
+            height: 50px;
+         }
+         .contact-box > div:nth-of-type(2) a {
+            border: 1px solid blue;
+            text-align: center;
+            width: 220px;
+            height: 50px;
+            justify-content: center;
+         }
+         .contact-box > div:nth-of-type(3){
+            border: 1px solid blue;
+            text-align: center;
+            width: 220px;
+            height: 50px;
+         }
+         .contact-box > div:nth-of-type(4){
+            border: 1px solid blue;
+            text-align: center;
+            width: 220px;
+            height: 50px;
+         } 
+         .contact-box > div:nth-of-type(5){
+            border: 1px solid blue;
+            text-align: center;
+            width: 220px;
+            height: 50px;
+         } 
+         .contact-box > div:nth-of-type(6){
+            border: 1px solid blue;
+            text-align: center;
+            width: 220px;
+            height: 50px;
+         }

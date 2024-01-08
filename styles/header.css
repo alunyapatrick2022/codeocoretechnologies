@@ -25,7 +25,12 @@
     border: none;
     background-color: #34353A;
 }
-.header-right button:hover {
+.header-right a {
+    text-decoration: none;
+    color: white;
+    align-self: center;
+}
+.header-right a:hover {
     cursor: pointer;
 }
 .header-right img:hover {
